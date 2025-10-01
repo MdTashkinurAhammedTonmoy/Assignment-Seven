@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="bg-black text-white">
-        <div className="flex p-20  justify-between mt-11">
+        <div className="lg:flex p-20  justify-between mt-11">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">CS — Ticket System</h3>
             <p className="text-[16px] text-[#A1A1AA]">

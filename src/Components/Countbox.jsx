@@ -48,11 +48,11 @@ const Countbox = ({ fatcIssues }) => {
       <Coungting TaskStatusTottal={taskStatus.length} ResolvedTottal ={ResolvedTask.length}></Coungting>
 
       {/* cards */}
-      <div className="grid grid-cols-3 gap-6 p-4">
-        <div className="col-span-2 space-y-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-4">
+        <div className="col-span-2  space-y-4">
           <h1 className="text-2xl font-bold mb-4">Customer Tickets</h1>
 
-          <div className="grid grid-cols-2 space-x-6 space-y-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {
             issues.map((issue,ind) => { 
               return <Card hendleTask={hendleTask} key={ind} issue={issue}></Card> ;
