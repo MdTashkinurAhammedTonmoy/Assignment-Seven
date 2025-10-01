@@ -4,6 +4,7 @@ import Countbox from "./Components/Countbox";
 import Footer from "./Components/Footer";
 import Navebar from "./Components/Navebar";
 import TaskStatus from "./Components/TaskStatus";
+import { ToastContainer } from "react-toastify";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       </Suspense>
       
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </>
   );
 }

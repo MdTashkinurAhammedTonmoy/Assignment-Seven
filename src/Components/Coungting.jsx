@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Coungting = ({issue}) => {
-  console.log(issue)
+const Coungting = ({TaskStatusTottal, ResolvedTottal}) => {
+  // console.log(issue)
     
 
     // const InProgress = data.filter((element) => element.status == "InProgress");
@@ -37,7 +37,7 @@ const Coungting = ({issue}) => {
 
           {/* ভেতরের কনটেন্ট */}
           <h3 className="text-2xl">In-Progress</h3>
-          <h2 className="text-6xl font-semibold">{issue.length}</h2>
+          <h2 className="text-6xl font-semibold">{TaskStatusTottal}</h2>
         </div>
 
         <div
@@ -62,7 +62,7 @@ const Coungting = ({issue}) => {
 
           {/* ভেতরের কনটেন্ট */}
           <h3 className="text-2xl">Resolved</h3>
-          <h2 className="text-6xl font-semibold">{}</h2>
+          <h2 className="text-6xl font-semibold">{ResolvedTottal}</h2>
         </div>
       </div>
     );
