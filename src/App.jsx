@@ -7,17 +7,15 @@ import TaskStatus from "./Components/TaskStatus";
 import { ToastContainer } from "react-toastify";
 
 function App() {
-
-  const fatcIssues = fetch('./customer.json').then(res => res.json())
+  const fatcIssues = fetch("./customer.json").then((res) => res.json());
 
   return (
     <>
       <Navebar></Navebar>
       <Suspense fallback={<h3>Loding.....</h3>}>
         <Countbox fatcIssues={fatcIssues}></Countbox>
-        
       </Suspense>
-      
+
       <Footer></Footer>
       <ToastContainer></ToastContainer>
     </>
@@ -25,8 +23,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
