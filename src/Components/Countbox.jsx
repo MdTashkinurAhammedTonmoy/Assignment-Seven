@@ -50,7 +50,7 @@ const Countbox = ({ fatcIssues }) => {
       ></Coungting>
 
       {/* cards */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-4 m-20">
         <div className="col-span-2  space-y-4">
           <h1 className="text-2xl font-bold mb-4">Customer Tickets</h1>
 
