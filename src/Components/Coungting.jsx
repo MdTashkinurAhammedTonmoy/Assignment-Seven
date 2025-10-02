@@ -14,7 +14,7 @@ const Coungting = ({TaskStatusTottal, ResolvedTottal}) => {
 
 
 
-        <div className="grid grid-cols-2 gap-6 m-20">
+        <div className="grid grid-cols-2 gap-6 lg:m-20 m-7">
         <div
           className="relative rounded-md p-7 text-white h-60 flex flex-col items-center justify-center text-center overflow-hidden"
           style={{
